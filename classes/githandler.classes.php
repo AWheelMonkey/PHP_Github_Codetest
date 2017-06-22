@@ -6,7 +6,7 @@ class gitHandler
 	public function __construct()
 	{
 		$this->user = 'AWheelMonkey';
-		$this->token = '590ec3cfecbadb4ad58e44693064ae56d309dc17';
+		$this->token = '*inserttokenhere*';
 	}
 	public function login()
 	{
