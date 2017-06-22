@@ -49,10 +49,11 @@ class gitHandler
   {
 		/*db for this? */
   }
-  /* curl -i -u username -d
-  '{"scopes":["public_repo"]}' https://api.github.com/authorizations */
-  /*curl -u username:token https://api.github.com/user*/
-  /*based off: https://support.ladesk.com/061754-How-to-make-REST-calls-in-PHP */
+	/*should make a function for each call:
+	makeGetCall()
+	makePostCall()
+	etc..
+	*/
   public function makeCall($urlSect, $params)
   {
 		/*
